@@ -16,4 +16,15 @@ p2=praveen("madhan",21)
 
 print(p1.name, p1.age)
 
+3
+text="python programing"
+vovels="aeiou"
+count=0
+
+for i in text:
+    if i in vovels:
+        count=count+1
+
+print("vovels are:",count)
+
 
