@@ -51,4 +51,43 @@ for j in range(i+1):
 print('*', end='')
 print()
 
+6
+
+a=[[1,2,3],[4,5,6]]
+b=[]
+for i in range(len(a[0])):
+    b.extend([a[0][i],a[1][i]])
+print(b)
+
+7
+lcm
+a=2
+b=3
+if a>b:
+   b=a
+else:
+    c=b   
+while True:
+        if(c%a==0 and c%b==0):
+                break
+       c=c+1
+print(c)
+
+8
+a=input()
+b=input()
+print(sorted(a))
+print(sorted(b))
+if(sorted(a)==sorted(b)):
+        print("anagram")
+else:
+        print("not a anagram")
+9
+[[1,2,3],[4,5,6]]
+b=[ ]
+for i in a:
+    for j in i:
+        b.append(j)
+print(b)
+
 
