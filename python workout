@@ -90,4 +90,11 @@ for i in a:
         b.append(j)
 print(b)
 
+megna=input("died")
+if megna=="died":
+    print("surya meets priya")
+else:
+    print("surya weds megna")
+
+
 
