@@ -95,6 +95,83 @@ if megna=="died":
     print("surya meets priya")
 else:
     print("surya weds megna")
+n="apple"
+for i in n:
+    print(i)
+
+n=int(input())
+c=0
+'''
+#ex-2
+'''
+for i in range(1,n+1):
+    if i%2==0:
+        print("even",i)
+        c=c+1
+    else:
+        print("odd",i)
+print("even numbers are: ",c)
+print("odd numbers are:",n-c)
+'''
+#ex-3
+"""
+num=0
+n=10
+for i in range(1,n+1):
+    print("num=",num,"+",i)
+    num=num+i
+    
+print(num)
+"""
+#ex-4
+"""
+n=10
+b=[]
+for i in range(n):
+    a=int(input("enter n"))
+    b.append(a)
+print(b)
+num=0
+for i in b:
+    num+=i # num=num+i
+print(num)
+"""
+#ex-5
+"""
+for i in range(3):
+    print("week",":",i)
+    for j in range(1,3+1):
+        print("day",j)
+"""
+#ex=6
+"""
+for i in range(5):
+    for j in range(i):
+        print("*",end=" ")
+    print()
+"""
+####while loop:
+'''it is used for unkown end
+when input went a false it will get stop:'''
+#ex-1
+"""
+i=0
+while i<200:
+    i=i+10
+    print(i)
+"""
+
+#5*4*3*2*1
+"""
+num=1
+i=1
+n=5
+while i<=n:
+    print(i)
+    num=num*i
+    i=i+1
+print(num)   
+"""
 
 
 
