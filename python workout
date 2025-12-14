@@ -225,6 +225,40 @@ print(num)
 
 A#
 
+n=10
+b=[]
+for i in range(n):
+    a=int(input("enter n"))
+    b.append(a)
+print(b)
+num=0
+for i in b:
+    num+=i # num=num+i
+print(num)
+
+
+##a={
+##    "name":"selva",
+##    "age":20,
+##    "location":"chennai"
+##}
+##print(a.keys())
+##print(a.values())
+##print(a.items())
+##
+##"""update"""
+##a.update({"age":5})
+##print(a)
+##
+##"""modify"""
+##a["location"]="trichy"
+##print(a)
+##
+##"""can add"""
+##a["car"]="bmw"
+##print(a)
+
+
 
 
 
