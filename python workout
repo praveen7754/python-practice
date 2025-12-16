@@ -43,6 +43,79 @@ print("Something went wrong!")
 finally:
 print("Do some cleanup here")
 
+def detials(*args,**kwargs):
+##    for pra in args:
+##        print(pra, end=" ")
+##    print()
+##    for num in kwargs.values():
+##        print(num)
+##detials("praveen","13","gpd","tn",
+##        name="praveen",
+##        age="21",
+##        area="gpd",
+##        state="tn")
+
+#detials={"name":"praveen","age":21,"area":"gpd","state":"tn"}
+#for van in detials.values():
+ #   print(van)
+
+##class praveen:
+##    def __init__(self,name,age):
+##        self.name=name
+##        self.age=age
+##
+##p1=praveen("selva",20)
+##p2=praveen("madhan",21)
+##
+##print(p1.name, p1.age)
+##
+##class cars:
+##    def
+
+##a="mam"
+##b=a[::-1]
+##if a==b:
+##    print("palindrom")
+##else:
+##    print("not palindrom")
+
+##class prey:
+##    def flee(self):
+##        print("this animal is fleeing")
+##
+##class predator:
+##    def hunt(self):
+##        print("this animal is huting")
+##
+##class rabbit(prey):
+##    pass
+##
+##class fish(predator,prey):
+##    pass
+##
+##class hawk(predator):
+##    pass
+##
+##rabit=rabbit()
+##fish=fish()
+##hawk=hawk()
+##
+##hawk.hunt()
+
+##table=7
+##for i in range(1,11):
+##    print(table, "x", i, "=", table*i)
+
+##text="python programing"
+##vovels="aeiou"
+##count=0
+##
+##for i in text:
+##    if i in vovels:
+##        count=count+1
+##
+##print("vovels are:",count)
+##       
 
 1
 a=input()
