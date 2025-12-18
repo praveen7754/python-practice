@@ -435,6 +435,23 @@ print(num)
 ##a["car"]="bmw"
 ##print(a)
 
+from multipledispatch import dispatch  
+
+@dispatch(int,int)
+def func(a,b):
+    print(a+b)
+@dispatch(int,int,int)
+def func(a,b,c):
+    print(a+b+b)
+@dispatch(str,str)
+def func(a,b):
+    print(a+b)
+    
+func(10,20)
+func(1,2,3)
+func("hi","hello")
+
+
 
 
 
