@@ -31,6 +31,24 @@ try:
 
 4
 
+import copy
+
+a = [[1, 2], [3, 4]]
+b = copy.copy(a)   # shallow copy
+
+b[0][0] = 99
+print(a)  # [[99, 2], [3, 4]]
+print(b)  # [[99, 2], [3, 4]]
+
+import copy
+
+a = [[1, 2], [3, 4]]
+b = copy.deepcopy(a)
+
+b[0][0] = 99
+print(a)  # [[1, 2], [3, 4]]
+print(b)  # [[99, 2], [3, 4]]
+
 exception handling
 number = int(input("Enter a number: ") )
 print(1 / number)
