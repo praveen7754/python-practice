@@ -352,6 +352,177 @@ for i in text:
 
 print("vovels are:",count)
 
+def greet():
+##    print("WELCOME PYTHON")
+##    print("I LEARN PYTHON STATEMENT FUNCTION")
+##greet()
+##print("TERMINATED THE CODE")
+##greet()
+##
+##def add():
+##   a=5
+##   b=10
+##   print(a+b)
+##add()
+##print("this is addition")
+##def mul():
+##    a=25
+##    b=3
+##    priont(a*b)
+##mul()
+##def greet():
+##    n=int(input())
+##    for i in range(1,n+1):
+##       print(i)
+##greet()
+##print("numbers")
+##def greet():
+##    a=[1,2,3,4,5]
+##    b=[]
+##    for i in a:
+##        c=i+i
+##        b.append(c)
+##    print(b)
+####greet()
+
+x={"a":1,"b":2}
+##y={"c":3,"d":4}
+##for i,j in y.items():
+##      x[i]=j
+##print(x)
+##x={"a":1,"b":2,"c":3,"d":4}
+##y={"c":5,"d":4,"e":5,"f":6}
+##x={"a":1,"b":2,"c":3,"d":4}
+##y={"c":3,"d":4,"e":5,"f":6}
+##z={}
+##for i,j in x.items():
+##    if i not in y:
+##        z[i]=j
+##print(z)
+##a={"a":1,"b":2,"c":3,"d":4}
+##b={"c":3,"d":4,"e":5,"f":6}
+##z={}
+##for i,j in a.items():
+##    if i not in b:
+##        z[i]=j
+##for i,j in b.items():
+##    if i not in a:
+##        z[i]=j
+##print(z)
+##a=(i for i in range(1,5))
+##print(next(a))
+##print(next(a))
+##print(next(a))
+##print(next(a))
+##print(next(a))
+
+#def a(x):
+##    b=x.split()
+##    return len(b)
+##print(a("i learn python programing"))
+
+##def a(x):
+##    return x*2
+##n=[1,2,3,4]
+##b=[]
+##for i in n:
+##    b.append(a(i))
+##print(b)
+
+##a=lambda x :x*2
+##n=[1,2,3,4]
+##b=[]
+##for i in n:
+##    b.append(a(i))
+##print(b)
+
+##n=[1,2,3,4]
+##a=map(lambda x:x*2,n)
+##print(list(a))
+
+
+##a=[1,2,3]
+##b=[10,20,30]
+##c=map(lambda x,y:x+y, a,b)
+##print(list(c))
+
+##n=[1,2,3,4]
+##def b(i):
+##    return i*2
+##b=map(b,n)
+##print(list(b))
+
+##a=["1","2","3","4"]
+##b=map(int,a)
+##print(list(b))
+
+##a=["apple","orange","mango"]
+##b=map(len,a)
+##print(list(b))
+
+##a=[1,2,3,4]
+##b=map(lambda x:x+10,a)
+##print(list(b))
+
+##a=[1,2,3,4,5,6,7,8]
+##b=filter(lambda x:x%2==0,a)
+##print(list(b))
+
+##a=[1,2,3,4,5,6]
+##def x(i):
+##    return i%2==0
+##b=filter(x,a)
+##print(list(b))
+
+##a=["apple","orange","banana","mango"]
+##b=filter(lambda x:len(x)==6,a)
+##print(list(b))
+
+##a=["madhan","arun","selva","vishwa"]
+##b=list(filter(lambda x:x.startswith("a"),a))
+##print(b)
+
+##a=["abc","xyz","fgh","edh"]
+##b=filter(lambda x:any(i in["a","e","i","o","u"]for i in x.lower()),a)
+##print(list(b))
+
+##add two numbers
+##from functools import reduce 
+##a=[1,2,3,4,5]
+##b=reduce(lambda x,y:x+y,a)
+##print(b)
+
+##multiple two numbers
+##from functools import reduce 
+##a=[1,2,3,4,5]
+##b=reduce(lambda x,y:x*y,a)
+##print(b)
+
+##from functools import reduce
+##a=[5,2,1,7,4]
+##b=reduce(lambda x,y:x if(x>y)else y,a)
+##print(b)
+
+##a=[[1,2],[3,4],[5,6]]
+##b=reduce(lambda x,y:x+y,a)
+##print(b)
+
+##a="i learn python"
+##c=a.split
+##rev=""
+##b=reduce(lambda x:x[::-1,a])
+##print(b)
+
+##from functools import reduce
+##
+##a= "i learn python"
+##b= reduce(lambda x,y:y+" "+x,a.split())
+##print(b)
+
+##a=["i","learn","python"]
+##b=reduce(lambda x,y: x+" "+y+" ",a)
+##print(b)
+
 4
 def list_to_dict():
 keys = [1,2,3]
