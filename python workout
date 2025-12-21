@@ -63,6 +63,10 @@ factorial
 ##    fact=fact*i
 ##print(fact)
 
+a = [1, 2, 3]
+b = a
+b.append(4)
+print(a)
 a=input()
 ##b=input()
 ##print(sorted(a))
@@ -71,6 +75,13 @@ a=input()
 ##    print("anagram")
 ##else:
 ##    print("not a anagram")
+
+funcs = []
+for i in range(3):
+    funcs.append(lambda: i)
+
+for f in funcs:
+    print(f())
 
 ##union
 ##a={1,2,3,4}
