@@ -157,3 +157,15 @@ print("Invalid choice.")
 if __name__ == "__main__":
 main()
 
+
+� README.md (Final Version)
+# 🏦 Python Bank System
+A beginner to intermediate level **Bank Management System** built using Python 
+and Object-Oriented Programming.
+## ✅ Features- Account creation- Secure login using Account Number & PIN- Deposit and Withdraw money- Balance inquiry- Transaction history tracking- Persistent data storage using JSON
+## 🛠 Technologies Used- Python- JSON- OOP Concepts- Datetime Module
+## 📂 Project Structure
+## ▶️ How to Run
+```bash
+python bank_system.py
+bank-system-project/ ├── bank_system.py ├── data/ │ └── accounts.json └── README.m
