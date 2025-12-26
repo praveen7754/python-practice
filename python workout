@@ -186,6 +186,37 @@ def detials(*args,**kwargs):
 ##        area="gpd",
 ##        state="tn")
 
+
+def add_item(item, lst=[]):
+    lst.append(item)
+    return lst
+
+print(add_item(1))
+print(add_item(2))
+
+import copy
+a = [[1, 2], [3, 4]]
+b = copy.copy(a)
+b[0][0] = 99
+print(a)
+
+def add_item(item, lst=None):
+    if lst is None:
+        lst = []
+    lst.append(item)
+    return lst
+
+class A:
+    def __new__(cls):
+        print("Creating object")
+        return super().__new__(cls)
+
+    def __init__(self):
+        print("Initializing object")
+
+A()
+
+
 #detials={"name":"praveen","age":21,"area":"gpd","state":"tn"}
 #for van in detials.values():
  #   print(van)
