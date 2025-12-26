@@ -104,6 +104,40 @@ for f in funcs:
 ##print(a-b)
 ##print(b.difference(a))
 
+def modify(x):
+    x.append(10)
+
+lst = [1, 2]
+modify(lst)
+print(lst)
+
+a = [1,2,3]
+b = [1,2,3]
+
+print(a == b)
+print(a is b)
+
+def my_decorator(func):
+    def wrapper():
+        print("Before")
+        func()
+        print("After")
+    return wrapper
+
+@my_decorator
+def hello():
+    print("Hello")
+
+hello()
+
+class Singleton:
+    _instance = None
+
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+        return cls._instance
+
 n=int(input())
 ##if (n%5==0):
 ##    if(n%3==0):
